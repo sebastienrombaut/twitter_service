@@ -12,6 +12,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+gem 'twitter'
 
 group :development, :test do
   gem 'sqlite3'
@@ -22,6 +23,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem "factory_bot_rails"
   gem 'simplecov'
+  gem 'dotenv-rails'
 end
 
 group :development do

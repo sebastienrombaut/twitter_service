@@ -1,0 +1,7 @@
+<h1>On va saisir un petit tweeeeeet</h1>
+
+<%= form_for @tweet, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+  <%= label_tag 'Contenu de ton tweet :' %>
+  <%= f.text_field :content, size: "50x2" %>
+  <%= f.submit "Crée ton gros tweet" %>
+<% end %>
